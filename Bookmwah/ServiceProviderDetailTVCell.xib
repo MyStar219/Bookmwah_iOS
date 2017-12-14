@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="corbel.ttf">
+            <string>Corbel</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="198" id="KGk-i7-Jjw" customClass="ServiceProviderDetailTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="196.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating_icon_active" translatesAutoresizingMaskIntoConstraints="NO" id="cHY-Dm-SmY">
+                        <rect key="frame" x="25" y="101" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="5ya-k7-h9L"/>
+                            <constraint firstAttribute="height" constant="12" id="Dfq-dR-HWy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGn-dm-hdj">
+                        <rect key="frame" x="41" y="97" width="33" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="aNS-WA-k11"/>
+                            <constraint firstAttribute="height" constant="21" id="v0l-B2-ulY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHm-Zm-DmU">
+                        <rect key="frame" x="230" y="8" width="87" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="87" id="2az-8n-M3z"/>
+                            <constraint firstAttribute="height" constant="21" id="Fi3-Fd-BqT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsA-7K-6J0">
+                        <rect key="frame" x="223" y="22" width="96" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="V8F-kW-1LT"/>
+                            <constraint firstAttribute="width" constant="96" id="yi1-so-zkk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="10"/>
+                        <color key="textColor" red="0.88627450980392153" green="0.10196078431372549" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Direction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaE-2O-Xfb">
+                        <rect key="frame" x="250" y="128" width="59" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="ZHg-qN-bUI"/>
+                            <constraint firstAttribute="width" constant="59" id="eIC-gs-0ye"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="10"/>
+                        <color key="textColor" red="0.88627450980392153" green="0.10196078431372549" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPz-KB-JUk">
+                        <rect key="frame" x="94" y="42" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="GHv-DW-PLc"/>
+                            <constraint firstAttribute="height" constant="20" id="GKI-Oa-JXo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1f-8N-cbm">
+                        <rect key="frame" x="143" y="46" width="41" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="3nr-bK-BAw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2X-fD-9Q0">
+                        <rect key="frame" x="259" y="93" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="dEM-xd-C1C"/>
+                            <constraint firstAttribute="height" constant="40" id="g3j-fr-Zb0"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="get_direction"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-FM-fJr">
+                        <rect key="frame" x="94" y="62" width="218" height="10"/>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="10"/>
+                        <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-mV-Qwx">
+                        <rect key="frame" x="6" y="15" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Umn-ym-lck"/>
+                            <constraint firstAttribute="height" constant="80" id="WcV-kS-MXw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLi-ml-xHj">
+                        <rect key="frame" x="94" y="9" width="33" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="HBE-5R-Ske"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61h-uk-upj">
+                        <rect key="frame" x="94" y="28" width="23" height="15"/>
+                        <color key="backgroundColor" red="0.8862745098" green="0.1019607843" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="WTw-44-FVt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="10"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Bu-RC-8GJ">
+                        <rect key="frame" x="0.0" y="151" width="320" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="lpc-Ov-ef7"/>
+                        </constraints>
+                        <segments>
+                            <segment title="Services"/>
+                            <segment title="Recommendation"/>
+                            <segment title="Info"/>
+                            <segment title="Portfolio"/>
+                        </segments>
+                        <color key="tintColor" red="0.8862745098" green="0.1019607843" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </segmentedControl>
+                    <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gb-ep-B1k">
+                        <rect key="frame" x="87" y="101" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="BzR-uH-pW7"/>
+                            <constraint firstAttribute="width" constant="40" id="t3n-iC-k0T"/>
+                        </constraints>
+                        <color key="tintColor" red="0.73333333329999995" green="0.08235294118" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="share"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcs-6P-paw">
+                        <rect key="frame" x="120" y="101" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0f1-vx-d2W"/>
+                            <constraint firstAttribute="width" constant="40" id="sWp-Ud-1YR"/>
+                        </constraints>
+                        <color key="tintColor" red="0.73333333329999995" green="0.08235294118" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="email"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ty-cc-U06">
+                        <rect key="frame" x="153" y="101" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="L2z-Z5-w9C"/>
+                            <constraint firstAttribute="width" constant="40" id="VU7-tl-74d"/>
+                        </constraints>
+                        <color key="tintColor" red="0.73333333329999995" green="0.08235294118" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="calling_btn"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VsA-7K-6J0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="2LF-6d-jL4"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="top" secondItem="4gb-ep-B1k" secondAttribute="bottom" constant="10" id="2sd-ic-Akz"/>
+                    <constraint firstItem="OLi-ml-xHj" firstAttribute="leading" secondItem="wIM-mV-Qwx" secondAttribute="trailing" constant="8" id="74u-90-JO9"/>
+                    <constraint firstAttribute="trailing" secondItem="cHm-Zm-DmU" secondAttribute="trailing" constant="3" id="9LD-Uy-n5i"/>
+                    <constraint firstItem="eC3-FM-fJr" firstAttribute="leading" secondItem="wIM-mV-Qwx" secondAttribute="trailing" constant="8" id="BFt-hm-DtD"/>
+                    <constraint firstAttribute="trailing" secondItem="7Bu-RC-8GJ" secondAttribute="trailing" id="Ccp-8X-Mtq"/>
+                    <constraint firstAttribute="trailing" secondItem="r2X-fD-9Q0" secondAttribute="trailing" constant="21" id="EiO-op-aV7"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="top" secondItem="lcs-6P-paw" secondAttribute="bottom" constant="10" id="Ep2-vS-YJb"/>
+                    <constraint firstItem="JGn-dm-hdj" firstAttribute="top" secondItem="wIM-mV-Qwx" secondAttribute="bottom" constant="2" id="Eq7-cC-zBp"/>
+                    <constraint firstItem="0ty-cc-U06" firstAttribute="leading" secondItem="4gb-ep-B1k" secondAttribute="trailing" constant="26" id="Fu6-HG-btj"/>
+                    <constraint firstItem="v1f-8N-cbm" firstAttribute="leading" secondItem="wIM-mV-Qwx" secondAttribute="trailing" constant="57" id="GMV-KZ-1oH"/>
+                    <constraint firstItem="HPz-KB-JUk" firstAttribute="leading" secondItem="wIM-mV-Qwx" secondAttribute="trailing" constant="8" id="Paz-ca-3qW"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="top" secondItem="FaE-2O-Xfb" secondAttribute="bottom" constant="8" id="Rxf-zK-bav"/>
+                    <constraint firstAttribute="bottom" secondItem="7Bu-RC-8GJ" secondAttribute="bottom" constant="17" id="TZt-Vy-TpY"/>
+                    <constraint firstItem="lcs-6P-paw" firstAttribute="leading" secondItem="JGn-dm-hdj" secondAttribute="trailing" constant="46" id="Va1-7R-NLh"/>
+                    <constraint firstItem="eC3-FM-fJr" firstAttribute="top" secondItem="HPz-KB-JUk" secondAttribute="bottom" id="XGs-vE-MTc"/>
+                    <constraint firstItem="cHY-Dm-SmY" firstAttribute="top" secondItem="wIM-mV-Qwx" secondAttribute="bottom" constant="6" id="Xb2-AK-Qom"/>
+                    <constraint firstItem="v1f-8N-cbm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="46" id="Xji-lY-BGv"/>
+                    <constraint firstItem="cHm-Zm-DmU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Y5Y-y2-meF"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="top" secondItem="r2X-fD-9Q0" secondAttribute="bottom" constant="18" id="ZHQ-JC-Pcs"/>
+                    <constraint firstAttribute="trailing" secondItem="VsA-7K-6J0" secondAttribute="trailing" constant="1" id="aTL-Gb-1nu"/>
+                    <constraint firstItem="wIM-mV-Qwx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="cSr-Bw-GKS"/>
+                    <constraint firstItem="HPz-KB-JUk" firstAttribute="top" secondItem="OLi-ml-xHj" secondAttribute="bottom" constant="12" id="enT-Jj-fJF"/>
+                    <constraint firstItem="wIM-mV-Qwx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="j1v-c0-h6i"/>
+                    <constraint firstItem="4gb-ep-B1k" firstAttribute="leading" secondItem="JGn-dm-hdj" secondAttribute="trailing" constant="13" id="mni-Nf-eq2"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nIp-oG-C86"/>
+                    <constraint firstItem="61h-uk-upj" firstAttribute="leading" secondItem="wIM-mV-Qwx" secondAttribute="trailing" constant="8" id="pXe-ay-d80"/>
+                    <constraint firstItem="61h-uk-upj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="28" id="qIJ-Hn-PNH"/>
+                    <constraint firstAttribute="trailing" secondItem="FaE-2O-Xfb" secondAttribute="trailing" constant="11" id="upJ-1V-fQs"/>
+                    <constraint firstItem="cHY-Dm-SmY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="vsY-IG-8dJ"/>
+                    <constraint firstItem="7Bu-RC-8GJ" firstAttribute="top" secondItem="0ty-cc-U06" secondAttribute="bottom" constant="10" id="vx6-Eh-rGf"/>
+                    <constraint firstAttribute="trailing" secondItem="eC3-FM-fJr" secondAttribute="trailing" constant="8" id="yg3-Zm-peF"/>
+                    <constraint firstItem="JGn-dm-hdj" firstAttribute="leading" secondItem="cHY-Dm-SmY" secondAttribute="trailing" constant="4" id="zRh-nj-VlH"/>
+                    <constraint firstItem="OLi-ml-xHj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="zag-S1-hai"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCalling" destination="0ty-cc-U06" id="NnI-A6-wiR"/>
+                <outlet property="btnEmail" destination="lcs-6P-paw" id="Muk-gM-3KX"/>
+                <outlet property="img" destination="wIM-mV-Qwx" id="D1b-Kg-5Ri"/>
+                <outlet property="lblAddress" destination="v1f-8N-cbm" id="Bch-2w-sbK"/>
+                <outlet property="lblCategory" destination="61h-uk-upj" id="0Dp-9q-hcK"/>
+                <outlet property="lblDescription" destination="eC3-FM-fJr" id="hl0-Nj-Ztf"/>
+                <outlet property="lblProviderName" destination="OLi-ml-xHj" id="Kj5-kd-ocD"/>
+                <outlet property="lblRating" destination="JGn-dm-hdj" id="NxW-mK-Q5y"/>
+                <outlet property="lblTime" destination="VsA-7K-6J0" id="JsN-pK-9vh"/>
+                <outlet property="segment" destination="7Bu-RC-8GJ" id="gBY-V7-uel"/>
+                <outlet property="showMap" destination="r2X-fD-9Q0" id="x1g-Ig-zKr"/>
+            </connections>
+            <point key="canvasLocation" x="238" y="308.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calling_btn" width="36" height="36"/>
+        <image name="email" width="36" height="36"/>
+        <image name="get_direction" width="24" height="24"/>
+        <image name="rating_icon_active" width="17" height="16"/>
+        <image name="share" width="36" height="36"/>
+    </resources>
+</document>

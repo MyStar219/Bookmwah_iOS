@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="corbel.ttf">
+            <string>Corbel</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="info" rowHeight="309" id="4hd-c3-RID" customClass="ServiceProviderDetailTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4hd-c3-RID" id="usT-yd-5Qb">
+                <frame key="frameInset" width="320" height="308"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-uL-u0s">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancellation Policy : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfe-YI-qXb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="O4V-TK-WwZ"/>
+                                    <constraint firstAttribute="width" constant="120" id="wov-S5-v6Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksf-vD-MVl">
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ksf-vD-MVl" secondAttribute="bottom" constant="18" id="2ar-ZJ-j9g"/>
+                            <constraint firstItem="ksf-vD-MVl" firstAttribute="leading" secondItem="Jfe-YI-qXb" secondAttribute="trailing" constant="13" id="4qP-Ab-Tgq"/>
+                            <constraint firstItem="Jfe-YI-qXb" firstAttribute="top" secondItem="Tay-uL-u0s" secondAttribute="top" id="EFA-cO-GXj"/>
+                            <constraint firstItem="ksf-vD-MVl" firstAttribute="top" secondItem="Tay-uL-u0s" secondAttribute="top" id="Yj1-SZ-NUg"/>
+                            <constraint firstItem="Jfe-YI-qXb" firstAttribute="leading" secondItem="Tay-uL-u0s" secondAttribute="leading" constant="16" id="fID-03-Oj8"/>
+                            <constraint firstAttribute="trailing" secondItem="ksf-vD-MVl" secondAttribute="trailing" constant="15" id="uzH-WW-jMz"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house_call-1" translatesAutoresizingMaskIntoConstraints="NO" id="kh0-gs-nhW">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="2Rx-ch-hLn"/>
+                            <constraint firstAttribute="height" constant="40" id="Ksx-Ho-9A4"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RsT-a4-IzH">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-Vr-3um">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="S3v-qh-97B"/>
+                                    <constraint firstAttribute="height" constant="21" id="WuB-4R-pz8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Address : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P56-Wm-XG0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="FYj-BL-2AP"/>
+                                    <constraint firstAttribute="height" constant="21" id="sjc-jR-7bQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSY-xv-P3Z">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="449-AH-NF7"/>
+                                    <constraint firstAttribute="height" constant="21" id="Mdx-iO-nfa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile No. :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foS-AG-M0S">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HRK-YB-ysb"/>
+                                    <constraint firstAttribute="width" constant="95" id="iRT-CA-VvB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bX5-0c-SNQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="JHi-Bq-jj6"/>
+                                    <constraint firstAttribute="height" constant="21" id="bFe-hH-uDy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zip Code :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-ef-Dco">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="DsZ-MF-o4P"/>
+                                    <constraint firstAttribute="height" constant="21" id="b6u-uf-87m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gt-nk-EHa">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="MHQ-xz-ENm"/>
+                                    <constraint firstAttribute="height" constant="21" id="qcw-IF-Poz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Role : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wT-HA-ZGo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="9GM-vU-mo4"/>
+                                    <constraint firstAttribute="height" constant="21" id="yCq-xg-08D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Notes To Client : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jj6-fm-DaS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="RKn-YF-WfZ"/>
+                                    <constraint firstAttribute="height" constant="21" id="qBV-5y-I8F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-K5-vx4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="U6g-xP-MEe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWK-Pu-nUI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="T17-gg-A9O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDk-mb-5yp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dnl-7Q-xzY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stX-Jx-rH4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lBA-xB-w6t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z7-sv-K1z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="KK1-eC-4Xp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuc-UT-3dv">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fEm-wN-lmZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MW-0A-1aA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5fK-TZ-TZo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2U-FP-rl2">
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Business Name : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsI-hq-aHY">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WAW-f8-pl9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vsI-hq-aHY" firstAttribute="top" secondItem="RsT-a4-IzH" secondAttribute="top" constant="58" id="21e-ou-UoA"/>
+                            <constraint firstItem="cDk-mb-5yp" firstAttribute="leading" secondItem="vSY-xv-P3Z" secondAttribute="trailing" constant="36" id="6KA-2S-c7e"/>
+                            <constraint firstItem="foS-AG-M0S" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="9kx-Wd-t0v"/>
+                            <constraint firstItem="bX5-0c-SNQ" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="Ayp-l1-E0D"/>
+                            <constraint firstItem="L2U-FP-rl2" firstAttribute="top" secondItem="Xuc-UT-3dv" secondAttribute="bottom" constant="68" id="B4S-yM-ERW"/>
+                            <constraint firstItem="P56-Wm-XG0" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="CzX-Td-JnI"/>
+                            <constraint firstItem="9gt-nk-EHa" firstAttribute="top" secondItem="bX5-0c-SNQ" secondAttribute="bottom" constant="-101" id="ET1-vn-Q8C"/>
+                            <constraint firstItem="1wT-HA-ZGo" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="EjZ-PB-dfa"/>
+                            <constraint firstItem="P56-Wm-XG0" firstAttribute="top" secondItem="RsT-a4-IzH" secondAttribute="top" constant="58" id="Erb-wv-4tE"/>
+                            <constraint firstItem="vSY-xv-P3Z" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="JFI-TL-Dnr"/>
+                            <constraint firstItem="3Z7-sv-K1z" firstAttribute="top" secondItem="stX-Jx-rH4" secondAttribute="bottom" constant="19" id="Kj5-EH-CCz"/>
+                            <constraint firstItem="stX-Jx-rH4" firstAttribute="leading" secondItem="foS-AG-M0S" secondAttribute="trailing" constant="36" id="OLv-OH-GBp"/>
+                            <constraint firstAttribute="trailing" secondItem="L2U-FP-rl2" secondAttribute="trailing" constant="17" id="PI4-JM-hJA"/>
+                            <constraint firstItem="HIw-K5-vx4" firstAttribute="leading" secondItem="hxX-Vr-3um" secondAttribute="trailing" constant="36" id="Pj5-gp-ag3"/>
+                            <constraint firstItem="9gt-nk-EHa" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="QIR-cI-WMS"/>
+                            <constraint firstItem="ODk-ef-Dco" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="SEh-w6-Noy"/>
+                            <constraint firstItem="stX-Jx-rH4" firstAttribute="top" secondItem="GWK-Pu-nUI" secondAttribute="bottom" constant="59" id="Tbz-Gg-kaE"/>
+                            <constraint firstItem="Xuc-UT-3dv" firstAttribute="top" secondItem="stX-Jx-rH4" secondAttribute="bottom" constant="-41" id="Upy-yy-3MJ"/>
+                            <constraint firstItem="HIw-K5-vx4" firstAttribute="top" secondItem="RsT-a4-IzH" secondAttribute="top" constant="18" id="WGl-Tj-t7a"/>
+                            <constraint firstItem="0MW-0A-1aA" firstAttribute="baseline" secondItem="9gt-nk-EHa" secondAttribute="baseline" id="XrA-4o-Xaw"/>
+                            <constraint firstItem="0MW-0A-1aA" firstAttribute="leading" secondItem="9gt-nk-EHa" secondAttribute="trailing" constant="36" id="Yyd-1p-vRk"/>
+                            <constraint firstItem="Jj6-fm-DaS" firstAttribute="top" secondItem="ODk-ef-Dco" secondAttribute="bottom" constant="68" id="ZsT-tl-nXq"/>
+                            <constraint firstItem="hxX-Vr-3um" firstAttribute="top" secondItem="RsT-a4-IzH" secondAttribute="top" constant="18" id="agp-ZY-nPM"/>
+                            <constraint firstItem="hxX-Vr-3um" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="dNg-aY-EEb"/>
+                            <constraint firstItem="1wT-HA-ZGo" firstAttribute="top" secondItem="hxX-Vr-3um" secondAttribute="bottom" constant="-1" id="dXN-Rd-Ed2"/>
+                            <constraint firstItem="bX5-0c-SNQ" firstAttribute="top" secondItem="vSY-xv-P3Z" secondAttribute="bottom" constant="-1" id="drH-em-QdO"/>
+                            <constraint firstItem="GWK-Pu-nUI" firstAttribute="leading" secondItem="1wT-HA-ZGo" secondAttribute="trailing" constant="36" id="f7U-mK-5lt"/>
+                            <constraint firstItem="vSY-xv-P3Z" firstAttribute="top" secondItem="P56-Wm-XG0" secondAttribute="bottom" constant="59" id="fYp-fc-18P"/>
+                            <constraint firstItem="L2U-FP-rl2" firstAttribute="leading" secondItem="Jj6-fm-DaS" secondAttribute="trailing" constant="11" id="gTC-Sx-Wo1"/>
+                            <constraint firstItem="Xuc-UT-3dv" firstAttribute="leading" secondItem="ODk-ef-Dco" secondAttribute="trailing" constant="36" id="j0v-9I-GTA"/>
+                            <constraint firstItem="GWK-Pu-nUI" firstAttribute="top" secondItem="HIw-K5-vx4" secondAttribute="bottom" constant="-1" id="k6E-hU-C3O"/>
+                            <constraint firstItem="cDk-mb-5yp" firstAttribute="top" secondItem="vsI-hq-aHY" secondAttribute="bottom" constant="59" id="nJt-SZ-2Eb"/>
+                            <constraint firstItem="3Z7-sv-K1z" firstAttribute="leading" secondItem="bX5-0c-SNQ" secondAttribute="trailing" constant="36" id="ng3-Jn-jxH"/>
+                            <constraint firstItem="vsI-hq-aHY" firstAttribute="leading" secondItem="P56-Wm-XG0" secondAttribute="trailing" constant="36" id="nmW-zN-pmb"/>
+                            <constraint firstItem="ODk-ef-Dco" firstAttribute="top" secondItem="foS-AG-M0S" secondAttribute="bottom" constant="-41" id="q4z-zh-qGj"/>
+                            <constraint firstItem="Jj6-fm-DaS" firstAttribute="leading" secondItem="RsT-a4-IzH" secondAttribute="leading" constant="16" id="uqD-Gv-IO3"/>
+                            <constraint firstAttribute="bottom" secondItem="L2U-FP-rl2" secondAttribute="bottom" id="w20-rO-y5n"/>
+                            <constraint firstAttribute="trailing" secondItem="3Z7-sv-K1z" secondAttribute="trailing" constant="8" id="yb6-Vc-MBm"/>
+                            <constraint firstItem="foS-AG-M0S" firstAttribute="top" secondItem="1wT-HA-ZGo" secondAttribute="bottom" constant="59" id="zLA-e0-1PH"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Oy-8g-hnw">
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.70980392156862748" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="16"/>
+                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Available for house call" image="house_call-1">
+                            <color key="titleColor" red="0.96219512200000001" green="0.96219512200000001" blue="0.96219512200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RsT-a4-IzH" firstAttribute="leading" secondItem="usT-yd-5Qb" secondAttribute="leading" id="72X-i3-5ph"/>
+                    <constraint firstItem="Tay-uL-u0s" firstAttribute="width" secondItem="usT-yd-5Qb" secondAttribute="width" id="7rk-8j-PFS"/>
+                    <constraint firstItem="5Oy-8g-hnw" firstAttribute="leading" secondItem="usT-yd-5Qb" secondAttribute="leading" id="GGw-iY-VBv"/>
+                    <constraint firstItem="Tay-uL-u0s" firstAttribute="leading" secondItem="usT-yd-5Qb" secondAttribute="leading" id="Gte-eU-Ain"/>
+                    <constraint firstItem="RsT-a4-IzH" firstAttribute="width" secondItem="usT-yd-5Qb" secondAttribute="width" id="IaW-ZP-Cuk"/>
+                    <constraint firstItem="Tay-uL-u0s" firstAttribute="top" secondItem="RsT-a4-IzH" secondAttribute="bottom" constant="-2" id="NrD-Y5-hNm"/>
+                    <constraint firstItem="RsT-a4-IzH" firstAttribute="top" secondItem="usT-yd-5Qb" secondAttribute="top" id="SBm-Q2-GSL"/>
+                    <constraint firstItem="5Oy-8g-hnw" firstAttribute="top" secondItem="usT-yd-5Qb" secondAttribute="bottom" multiplier="268:308" constant="6" id="XQC-AQ-xDL"/>
+                    <constraint firstItem="RsT-a4-IzH" firstAttribute="height" secondItem="usT-yd-5Qb" secondAttribute="height" multiplier="214:324" constant="30.567901234567898" id="ZCz-Or-qi4"/>
+                    <constraint firstAttribute="bottom" secondItem="kh0-gs-nhW" secondAttribute="bottom" id="ePq-Qz-LBO"/>
+                    <constraint firstItem="5Oy-8g-hnw" firstAttribute="height" secondItem="usT-yd-5Qb" secondAttribute="height" multiplier="40:308" constant="-5.9999999999999929" id="foM-Gw-3Ax"/>
+                    <constraint firstItem="5Oy-8g-hnw" firstAttribute="width" secondItem="usT-yd-5Qb" secondAttribute="width" id="kTs-Xb-SyA"/>
+                    <constraint firstItem="kh0-gs-nhW" firstAttribute="leading" secondItem="usT-yd-5Qb" secondAttribute="leading" constant="58" id="qJO-Z1-8uk"/>
+                    <constraint firstItem="Tay-uL-u0s" firstAttribute="height" secondItem="usT-yd-5Qb" secondAttribute="height" multiplier="79:323" constant="-36.331269349845201" id="u5k-id-V3z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lbl_business_address" destination="vsI-hq-aHY" id="OXw-60-Njg"/>
+                <outlet property="lbl_business_cancel_policy" destination="ksf-vD-MVl" id="AdF-af-hkI"/>
+                <outlet property="lbl_business_email" destination="cDk-mb-5yp" id="HnP-cG-sNo"/>
+                <outlet property="lbl_business_mobile" destination="stX-Jx-rH4" id="9Sl-HI-Av0"/>
+                <outlet property="lbl_business_name" destination="HIw-K5-vx4" id="gBp-Hl-tt4"/>
+                <outlet property="lbl_business_other_notes" destination="L2U-FP-rl2" id="R8T-Mi-QE4"/>
+                <outlet property="lbl_business_role" destination="GWK-Pu-nUI" id="Wfg-9T-d9u"/>
+                <outlet property="lbl_business_state" destination="0MW-0A-1aA" id="uCf-N6-dzX"/>
+                <outlet property="lbl_business_website" destination="3Z7-sv-K1z" id="xj3-9O-4Dm"/>
+                <outlet property="lbl_business_zipcode" destination="Xuc-UT-3dv" id="2gr-8s-iTP"/>
+            </connections>
+            <point key="canvasLocation" x="726" y="310.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="house_call-1" width="21" height="21"/>
+    </resources>
+</document>

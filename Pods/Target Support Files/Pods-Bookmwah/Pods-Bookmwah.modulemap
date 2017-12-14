@@ -1,0 +1,6 @@
+framework module Pods_Bookmwah {
+  umbrella header "Pods-Bookmwah-umbrella.h"
+
+  export *
+  module * { export * }
+}

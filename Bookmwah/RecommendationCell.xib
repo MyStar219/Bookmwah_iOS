@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="corbel.ttf">
+            <string>Corbel</string>
+        </array>
+        <array key="corbelb.ttf">
+            <string>Corbel-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="NJ5-tM-ieg" customClass="ServiceProviderDetailTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NJ5-tM-ieg" id="GvP-Tt-4lu">
+                <frame key="frameInset" width="320" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding" translatesAutoresizingMaskIntoConstraints="NO" id="Njs-0P-ycb">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="WbH-Wg-ChU"/>
+                            <constraint firstAttribute="width" constant="50" id="idJ-iY-fSB"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yrD-L6-n0i" customClass="ASStarRatingView">
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2x2-nx-SPC"/>
+                            <constraint firstAttribute="width" constant="70" id="RsG-uZ-EAa"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXb-Rg-45h">
+                        <color key="backgroundColor" red="0.8441056911" green="0.8441056911" blue="0.8441056911" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9V-St-DxB">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="zPQ-Yl-Ujg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.64105691061219505" green="0.64105691061219505" blue="0.64105691061219505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-0p-6TR">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0Iz-u9-TUv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel-Bold" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yrD-L6-n0i" firstAttribute="top" secondItem="GvP-Tt-4lu" secondAttribute="top" constant="30" id="0Ey-K7-bZ1"/>
+                    <constraint firstItem="cyh-0p-6TR" firstAttribute="top" secondItem="GvP-Tt-4lu" secondAttribute="top" constant="15" id="BAW-OL-Jod"/>
+                    <constraint firstItem="cyh-0p-6TR" firstAttribute="leading" secondItem="Njs-0P-ycb" secondAttribute="trailing" constant="8" id="H60-mj-sx5"/>
+                    <constraint firstItem="Njs-0P-ycb" firstAttribute="leading" secondItem="GvP-Tt-4lu" secondAttribute="leading" constant="8" id="Qh0-ok-PqV"/>
+                    <constraint firstItem="yrD-L6-n0i" firstAttribute="leading" secondItem="Njs-0P-ycb" secondAttribute="trailing" constant="8" id="SBE-Ja-7QU"/>
+                    <constraint firstItem="Njs-0P-ycb" firstAttribute="top" secondItem="GvP-Tt-4lu" secondAttribute="top" constant="15" id="XPl-o1-VKP"/>
+                    <constraint firstItem="l9V-St-DxB" firstAttribute="leading" secondItem="Njs-0P-ycb" secondAttribute="trailing" constant="8" id="eXh-Ol-cdj"/>
+                    <constraint firstItem="kXb-Rg-45h" firstAttribute="width" secondItem="GvP-Tt-4lu" secondAttribute="width" id="gng-c3-Kw7"/>
+                    <constraint firstItem="kXb-Rg-45h" firstAttribute="top" secondItem="GvP-Tt-4lu" secondAttribute="bottom" multiplier="80:81" id="oIY-cc-TkV"/>
+                    <constraint firstItem="kXb-Rg-45h" firstAttribute="leading" secondItem="GvP-Tt-4lu" secondAttribute="leading" id="rc9-Fy-Qav"/>
+                    <constraint firstItem="kXb-Rg-45h" firstAttribute="height" secondItem="GvP-Tt-4lu" secondAttribute="height" multiplier="1:81" id="vHu-hj-9WL"/>
+                    <constraint firstItem="l9V-St-DxB" firstAttribute="top" secondItem="cyh-0p-6TR" secondAttribute="bottom" constant="8" id="xux-lK-hhs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageView1" destination="Njs-0P-ycb" id="CCA-XI-nsi"/>
+                <outlet property="lblFeedback" destination="l9V-St-DxB" id="sRS-my-grA"/>
+                <outlet property="lblName" destination="cyh-0p-6TR" id="s4r-UH-rfY"/>
+                <outlet property="viewRating" destination="yrD-L6-n0i" id="ewI-RS-cPR"/>
+            </connections>
+            <point key="canvasLocation" x="301" y="291"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="wedding" width="135" height="88"/>
+    </resources>
+</document>

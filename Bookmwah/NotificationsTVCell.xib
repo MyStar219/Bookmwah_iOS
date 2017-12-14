@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="corbel.ttf">
+            <string>Corbel</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsTVCell" rowHeight="93" id="Wn6-wx-nTY" customClass="NotificationsTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wn6-wx-nTY" id="62r-Ii-BUj">
+                <frame key="frameInset" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding" translatesAutoresizingMaskIntoConstraints="NO" id="NXI-cC-RaY">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="322-Qe-6nR"/>
+                            <constraint firstAttribute="height" constant="50" id="MFV-fj-LHw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWH-6S-aYi">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0i8-1C-VG7"/>
+                            <constraint firstAttribute="width" constant="40" id="5sm-mm-aoj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Type :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzl-al-cZk">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="68" id="8VG-cD-sUS"/>
+                            <constraint firstAttribute="height" constant="21" id="d0f-Kq-0ow"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking Time :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RU9-eZ-3kb">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="YvK-Et-r6Q"/>
+                            <constraint firstAttribute="height" constant="21" id="otQ-Il-GbK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your booking has been cancelled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pc2-TS-Use">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RJq-gy-wtA"/>
+                            <constraint firstAttribute="width" constant="203" id="V5i-bS-M9u"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nail Paint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-uN-Dwn">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Xrc-Kh-1wE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofy-hy-a2h">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="P24-C4-fzn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charles Martin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8P-u9-5oZ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="QxN-gz-99B"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Corbel" family="Corbel" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQd-DN-NAY">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="XZc-GO-Pxr"/>
+                            <constraint firstAttribute="height" constant="32" id="e2e-wb-9XW"/>
+                        </constraints>
+                        <state key="normal" image="cancel_icon">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nuY-uN-Dwn" firstAttribute="leading" secondItem="rzl-al-cZk" secondAttribute="trailing" constant="2" id="1C4-JW-wu5"/>
+                    <constraint firstItem="cQd-DN-NAY" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="24" id="1se-Py-H8g"/>
+                    <constraint firstItem="Ofy-hy-a2h" firstAttribute="top" secondItem="m8P-u9-5oZ" secondAttribute="bottom" constant="11" id="3WM-SH-AtS"/>
+                    <constraint firstItem="rzl-al-cZk" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="26" id="3ix-6W-wnD"/>
+                    <constraint firstItem="Pc2-TS-Use" firstAttribute="leading" secondItem="NXI-cC-RaY" secondAttribute="trailing" constant="8" id="AcD-Vh-eH6"/>
+                    <constraint firstItem="PWH-6S-aYi" firstAttribute="leading" secondItem="NXI-cC-RaY" secondAttribute="trailing" constant="8" id="Eov-yk-dMC"/>
+                    <constraint firstItem="NXI-cC-RaY" firstAttribute="leading" secondItem="62r-Ii-BUj" secondAttribute="leading" constant="8" id="IDK-Oh-M5P"/>
+                    <constraint firstItem="RU9-eZ-3kb" firstAttribute="leading" secondItem="NXI-cC-RaY" secondAttribute="trailing" constant="8" id="Kss-6M-j6B"/>
+                    <constraint firstItem="Pc2-TS-Use" firstAttribute="top" secondItem="nuY-uN-Dwn" secondAttribute="bottom" constant="12" id="LdV-9V-g7n"/>
+                    <constraint firstItem="rzl-al-cZk" firstAttribute="leading" secondItem="NXI-cC-RaY" secondAttribute="trailing" constant="8" id="NCw-d4-GtH"/>
+                    <constraint firstItem="NXI-cC-RaY" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="15" id="QSl-hV-yTm"/>
+                    <constraint firstAttribute="trailing" secondItem="cQd-DN-NAY" secondAttribute="trailing" constant="15" id="aYg-2d-yMT"/>
+                    <constraint firstItem="RU9-eZ-3kb" firstAttribute="top" secondItem="m8P-u9-5oZ" secondAttribute="bottom" constant="11" id="dSK-9S-LSA"/>
+                    <constraint firstItem="PWH-6S-aYi" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="10" id="eNq-1d-Zg2"/>
+                    <constraint firstItem="m8P-u9-5oZ" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="10" id="fUk-hj-nTv"/>
+                    <constraint firstItem="Ofy-hy-a2h" firstAttribute="leading" secondItem="RU9-eZ-3kb" secondAttribute="trailing" constant="1" id="fVt-CM-ub1"/>
+                    <constraint firstItem="m8P-u9-5oZ" firstAttribute="leading" secondItem="PWH-6S-aYi" secondAttribute="trailing" constant="1" id="ik9-VI-whG"/>
+                    <constraint firstItem="nuY-uN-Dwn" firstAttribute="top" secondItem="62r-Ii-BUj" secondAttribute="top" constant="26" id="qry-GA-03O"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btn_cancel" destination="cQd-DN-NAY" id="FRD-1n-XLK"/>
+                <outlet property="img" destination="NXI-cC-RaY" id="p5L-Hk-kjq"/>
+                <outlet property="lblMessage" destination="Pc2-TS-Use" id="aa8-Wn-zxY"/>
+                <outlet property="lbl_BookingTime" destination="Ofy-hy-a2h" id="k9d-O6-kjc"/>
+                <outlet property="lbl_Name" destination="m8P-u9-5oZ" id="v3M-C9-xoc"/>
+                <outlet property="lbl_ServiceType" destination="nuY-uN-Dwn" id="lCX-45-VPz"/>
+            </connections>
+            <point key="canvasLocation" x="296" y="85"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cancel_icon" width="32" height="32"/>
+        <image name="wedding" width="135" height="88"/>
+    </resources>
+</document>
